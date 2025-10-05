@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Главная страница</title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			background-color: #f0f8ff;
+			color: #333;
+			padding: 20px;
+			line-height: 1.6;
+		}
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			background-color: white;
+			padding: 25px;
+			border-radius: 15px;
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+		}
+		header {
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		.avatar {
+			width: 200px;
+			height: 200px;
+			border-radius: 50%;
+			border: 5px solid #4ecdc4;
+			display: block;
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+			margin: 0 auto 20px;
+
+		}
+		h1 {
+			color: #ff6b6b;
+			font-size: 2.5em;
+			text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+		}
+		section {
+			margin-bottom: 20px;
+			padding: 20px;
+			background-color: #f9f9f9;
+			border-radius: 10px;
+		}
+		h2{
+			color: #1a936f;
+			border-bottom: 3px dashed #ffd166;
+			padding-bottom: 10px;
+			margin-top: 0;
+		}
+
+		.hobby ul {
+			list-style-type: '✨ ';
+			padding-left: 20px;
+		}
+		.hobby li {
+			margin-bottom: 10px;
+			font-size: 1.1em;
+		}
+		.social-links {
+			display: flex;
+			justify-content: center;
+			gap: 20px;
+			flex-wrap: wrap;
+		}
+		.social-links a{
+			display: inline-block;
+			background-color: #4ecdc4;
+			color: white;
+			text-decoration: none;
+			border-radius: 50px;
+			padding: 12px 25px;
+		}
+		
+		.social-links a:hover {
+			background-color: #ff6b6b;
+			transform: translateY(-3px);
+		}
+		footer {
+			text-align: center;
+			margin-top: 30px;
+			color: #888;
+			font-style: italic;
+		}
+	</style>
+</head>
+<body>
+ 	<div class="container">
+ 		<header>
+ 			<img src="img/avatar.jpg" class="avatar" alt="">
+ 			<h1>Привет, я Алекс!</h1>
+ 		</header>
+ 		<section class="about">
+ 			<h2>Обо мне</h2>
+ 			<p>Привет! Меня зовут Алекс! Я занимаюсь созданием сайтов в школе программирования Coddy.</p>
+ 			<p>Далеко-далеко за словесными, горами в стране, гласных и согласных живут рыбные тексты. Составитель великий вопрос, точках коварный журчит своих прямо маленький, однажды встретил. Буквенных вопроса проектах, текста океана оксмокс дороге по всей, рекламных.</p>
+ 			<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Repellendus doloribus perspiciatis, natus nisi ad aut, incidunt porro quia a reiciendis dicta culpa tempora nulla corrupti labore eius aliquam earum eos.</p>
+ 		</section>
+ 		<section class="hobby">
+ 			<h2>Мои увлечения</h2>
+ 			<ul>
+ 				<li>Программирование</li>
+ 				<li>Рисование</li>
+ 				<li>Робототехника</li>
+ 				<li>Банбинтон</li>
+ 				<li>Авиа-моделирование</li>
+ 			</ul>
+ 		</section>
+ 		<section class="social">
+ 			<h2>Я в соцсетях</h2>
+ 			<div class="social-links">
+ 				<a href="#">ВКонтакте</a>
+ 				<a href="#">Telegram</a>
+ 				<a href="#">GitHub</a>
+ 			</div>
+ 		</section>
+ 		<footer>
+ 			Создано на первых занятиях в Coddy, 2025
+ 		</footer>
+ 	</div>
+</body>
+</html>
